@@ -158,3 +158,13 @@ C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\obj\Debug\ne
 C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\obj\Debug\net8.0\ApiLoja.pdb
 C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\obj\Debug\net8.0\ApiLoja.genruntimeconfig.cache
 C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\obj\Debug\net8.0\ref\ApiLoja.dll
+C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\obj\Debug\net8.0\ApiLoja.sourcelink.json
+C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\bin\Debug\net8.0\.env
+C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Danilo\Documents\ESTUDOS\5 PERIODO\PFS\Final Final\ApiLoja\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
