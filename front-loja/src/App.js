@@ -12,6 +12,7 @@ import ClienteAlterar from './components/clientes/ClienteAlterar';
 import Login from "./components/acessos/Login";
 import CompraPage from "./components/compras/Compra";
 import CompraListPage from "./components/compras/CompraListar";
+import CadastroPage from "./components/acessos/Cadastro";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Route path="/clientes/alterar/:id" element={<ClienteAlterar />} />
       <Route path="/compras" element={<CompraPage />} />
       <Route path="/compras/cliente/:clienteId" element={<CompraListPage />} />      
+      <Route path="/cadastro" element={<CadastroPage />} />    
     </Routes>
   </BrowserRouter>
   );

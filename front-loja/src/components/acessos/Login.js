@@ -57,6 +57,14 @@ const Login = () => {
                     </div>
                     <button className="btn btn-primary mt-2" onClick={e => login(e)}>Login</button>
                 </form>
+                <div className="mt-3">
+                    <button
+                        className="btn btn-secondary"
+                        onClick={() => navigate("/cadastro")}
+                    >
+                        Cadastrar Usuário
+                    </button>
+                </div>
             </div>
         </div>
     );

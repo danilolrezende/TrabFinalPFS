@@ -13,9 +13,9 @@ const Home = () => {
 
     return (
         <div className="container text-center mt-5">
-            <div className="d-flex justify-content-between">
+            <header className="navbar navbar-dark bg-dark p-3">
                 <Logout setFalha={setFalha} />
-            </div>
+            </header>
             <h1>Bem-vindo à Loja</h1>
             <p>Escolha uma opção para navegar:</p>
             <div className="d-flex justify-content-center gap-3 mt-4">
