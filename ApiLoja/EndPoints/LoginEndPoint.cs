@@ -65,10 +65,9 @@ namespace ApiLoja.EndPoints
                 {
                     HttpOnly = true,
                     SameSite = SameSiteMode.None,
-                    Secure = false,
+                    Secure = true,
                 }
             );
-            Console.WriteLine($"Cookie accessToken gerado: {token}");
             var dto = new UsuarioDTO(usuario);
             return TypedResults.Ok(dto);
         }

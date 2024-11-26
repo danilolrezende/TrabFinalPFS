@@ -13,7 +13,8 @@ public static class ClienteEndPoints
 
     public static void AdicionarClienteEndPoints(this WebApplication app)
     {
-        var grupo = app.MapGroup("/clientes").RequireAuthorization();
+        //var grupo = app.MapGroup("/clientes").RequireAuthorization();
+        var grupo = app.MapGroup("/clientes");
         
         grupo.MapGet("/", GetAsync);
         grupo.MapGet("/{id}", GetByIdAsync);

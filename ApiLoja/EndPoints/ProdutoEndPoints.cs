@@ -12,8 +12,8 @@ public static class ProdutoEndPoints
 {
     public static void AdicionarProdutoEndPoints(this WebApplication app)
     {
-        var grupo = app.MapGroup("/produtos").RequireAuthorization();
-        //var grupo = app.MapGroup("/produtos");
+        //var grupo = app.MapGroup("/produtos").RequireAuthorization();
+        var grupo = app.MapGroup("/produtos");
 
         grupo.MapGet("/", GetAsync);
         grupo.MapGet("/{id}", GetByIdAsync);

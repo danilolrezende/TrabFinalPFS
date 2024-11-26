@@ -36,8 +36,7 @@ const CompraPage = () => {
 
         api.post("compras", compra, 
             (res) => {
-                // Redireciona para a página principal
-                navigate("/"); // Redireciona para a página principal após a compra
+                navigate("/"); 
             }, 
             (erro) => setMensagemErro(erro)
         );
@@ -93,6 +92,7 @@ const CompraPage = () => {
                 </div>
 
                 <button className="btn btn-primary" type="submit">Registrar Compra</button>
+                <button className="btn btn-secondary" onClick={() => navigate("/")}>Voltar</button>
             </form>
         </div>
     );

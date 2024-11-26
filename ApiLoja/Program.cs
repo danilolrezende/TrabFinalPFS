@@ -84,7 +84,7 @@ app.UseCors(policy =>
           .SetIsOriginAllowed(_ => true));
 
 
-app.UseAuthentication();
-app.UseAuthorization();
+//app.UseAuthentication();
+//app.UseAuthorization();
 
 app.Run();

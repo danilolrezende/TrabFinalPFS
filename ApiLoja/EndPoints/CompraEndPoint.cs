@@ -13,7 +13,8 @@ namespace ApiLoja.EndPoints
     {
         public static void AdicionarCompraEndPoints(this WebApplication app)
         {
-            var grupo = app.MapGroup("/compras").RequireAuthorization();
+            //var grupo = app.MapGroup("/compras").RequireAuthorization();
+            var grupo = app.MapGroup("/compras");
 
             // Endpoints para manipulação de compras
             grupo.MapGet("/", GetAsync);  // Listar todas as compras

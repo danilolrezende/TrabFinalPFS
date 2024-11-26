@@ -52,7 +52,7 @@ const CompraListPage = () => {
                 )}
             </div>
             <button className="btn btn-primary" onClick={() => navigate("/clientes")}>Voltar</button>
-            <button className="btn btn-primary" onClick={() => navigate("/")}>Voltar para a Página Principal</button>
+            <button className="btn btn-secondary" onClick={() => navigate("/")}>Voltar para a Página Principal</button>
         </div>
     );
 };
